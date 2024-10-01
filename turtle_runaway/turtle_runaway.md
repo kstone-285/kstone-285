@@ -12,19 +12,19 @@
 
 추격자 거북이는 해당 코드를 바탕으로 당신의 **위치**와 **각도**를 실시간으로 계산하여 계속해서 쫓아올 것입니다.
 
-dx = opp_pos[0] - runner_pos[0] 당신과 추격자의 **상대적 좌표차이** 입니다.
-dy = opp_pos[1] - runner_pos[1]
+dx = opp_pos[0] - runner_pos[0] 당신과 추격자의 **상대적 좌표차이** 입니다.  
+dy = opp_pos[1] - runner_pos[1]  
        
-angle_to_opponent = math.degrees(math.atan2(dy, dx)) 머리를 돌릴 **각도**를 설정합니다.
-heading_diff = angle_to_opponent - self.heading()
+angle_to_opponent = math.degrees(math.atan2(dy, dx)) 머리를 돌릴 **각도**를 설정합니다.  
+heading_diff = angle_to_opponent - self.heading()  
 
 ---
 
 **당신이 지칠지, 거북이가 지칠지 시험해보는 것은 어떨까요?**
 
-if(is_catched) :
-    self.paused = True
-    self.display_score()
-    return
+if(is_catched) :  
+    self.paused = True  
+    self.display_score()  
+    return  
 
 **추격자는 당신이 잡힐 때 까지 멈추지 않을 것입니다..**
