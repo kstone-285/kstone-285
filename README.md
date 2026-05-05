@@ -3,7 +3,7 @@
 Hello, I'm **Kyoosuk Hwang**! Welcome to my repository! 🎉  
 I'm a student majoring in `Computer Science at Seoultech`.  
 
-I am an undergraduate researcher at MINTlab, with a deep interest in 3**D Reconstruction**, **Computer Vision**, and **3D Vision**. Currently, my research focuses on advancing **3D Gaussian Splatting** techniques.
+I am an undergraduate researcher at MINTlab, with a deep interest in **3D Reconstruction**, **Computer Vision**, and **3D Vision**. Currently, my research focuses on advancing **3D Gaussian Splatting** techniques.
 
 My primary goal is to develop **robust** and **generalized** processes within the vision pipeline. 
 Here, you'll find projects and resources related to my research, university coursework
